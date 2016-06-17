@@ -1,4 +1,3 @@
-# palette-town
-Sass Mixin for Generating Color Palettes
+Palette Town - Sass Mixin for Generating Color Palettes
 =====
 
