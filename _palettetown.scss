@@ -1,4 +1,4 @@
-@mixin pallet-town($color, $type) {
+@mixin palette-town($color, $type) {
   $color-primary: $color !global;
   $color-primary-darkest: desaturate(darken($color-primary, 45%), 15%) !global;
   $color-primary-darker: desaturate(darken($color-primary, 30%), 15%) !global;
@@ -101,10 +101,10 @@
     $color-shade-lightest: lighten($color-shade, 45%) !global;
   }
   @if $type == all {
-    @include pallet-town($color, complement);
-    @include pallet-town($color, triad);
-    @include pallet-town($color, tetrad);
-    @include pallet-town($color, split);
-    @include pallet-town($color, shades);
+    @include palette-town($color, complement);
+    @include palette-town($color, triad);
+    @include palette-town($color, tetrad);
+    @include palette-town($color, split);
+    @include palette-town($color, shades);
   }
 }
